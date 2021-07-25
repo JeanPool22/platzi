@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: blueviolet;
+  height: 50px;
+}
+
+.navbar #logo {
+  display: inline-block;
+  font-size: 20px;
+}
+
+#navbar_list {
+  display: inline-block;
+}
+
+#navbar_list ul {
+  color: white;
+  list-style: none;
+  font-size: 20px;
+}
+
+#navbar_list li {
+  display: inline-block;
+}
+
+.aside {
+  display: inline-block;
+  background-color: #DC143C;
+  width: 280px;
+  height: 617px;
+}
+
+.aside_box {
+  display: inline-block;
+  background-color: goldenrod;
+  width: 240px;
+  height: 120px;
+  margin: 15px;
+  border-radius: 8px;
+}
+
+.content {
+  float: right;
+  background-color: darkslategrey;
+  width: 1065px;
+  height: 617px;
+}
+
+.footer {
+  background-color: orangered;
+}
